@@ -19,7 +19,7 @@ from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 SECRETS = "/home/toxic/.secrets"
-OUTDIR = "/home/toxic/sovereign/projects/openrouter-probe"
+OUTDIR = "/home/toxic/estate/projects/openrouter-probe"
 BASE = "https://openrouter.ai/api/v1"
 KEY_NAME = "OPENROUTER_API_KEY_FREE"
 WORKERS = 8
@@ -52,8 +52,8 @@ def api(path, data=None, timeout=TIMEOUT):
         BASE + path, data=body, method="POST" if body else "GET",
         headers={"Authorization": "Bearer " + KEY,
                  "Content-Type": "application/json",
-                 "HTTP-Referer": "https://sovereign.local",
-                 "X-Title": "sovereign-probe"})
+                 "HTTP-Referer": "https://estate.local",
+                 "X-Title": "estate-probe"})
     t0 = time.time()
     try:
         with urllib.request.urlopen(req, timeout=timeout) as r:
