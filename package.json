@@ -1,0 +1,41 @@
+{
+  "name": "openrouter-probe",
+  "version": "1.0.0",
+  "description": "Quality-first eval stack for OpenRouter free models",
+  "type": "module",
+  "main": "eval_runner.ts",
+  "bin": {
+    "eval_runner": "./eval_runner.ts",
+    "probe_abstract": "./probe_abstract.ts",
+    "probe_all": "./probe_all.ts",
+    "probe_reliability": "./probe_reliability.ts",
+    "resurrect_probe": "./resurrect_probe.ts",
+    "reverify_top8": "./reverify_top8.ts",
+    "rewire_peer_v3": "./rewire_peer_v3.ts",
+    "rewrite_peer": "./rewrite_peer.ts",
+    "update_peer2": "./update_peer2.ts",
+    "merge_ranking": "./merge_ranking.ts",
+    "restructure_ranking": "./restructure_ranking.ts",
+    "deep_pass": "./deep_pass.ts",
+    "e2e_probe": "./e2e_probe.ts"
+  },
+  "scripts": {
+    "dev": "bun --hot run eval_runner.ts",
+    "test": "bun test",
+    "typecheck": "tsgo --noEmit -p tsconfig.json",
+    "lint": "biome check .",
+    "fmt": "biome format --write .",
+    "build": "bun build --target bun --outfile dist/bundle.js eval_runner.ts"
+  },
+  "dependencies": {
+    "openrouter-node": "^0.1.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@types/bun": "latest",
+    "bun-types": "latest",
+    "typescript": "^5.4.5"
+  },
+  "license": "MIT",
+  "private": true
+}
