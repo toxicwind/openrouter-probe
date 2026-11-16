@@ -3,7 +3,7 @@
 import json, re, time, urllib.request, urllib.error
 
 SECRETS = "/home/toxic/.secrets"
-OUT = "/home/toxic/pens/estate/ranch/openrouter-probe/reverify-20260920.jsonl"
+OUT = "/home/toxic/pens/Pens/ranch/openrouter-probe/reverify-20260920.jsonl"
 TOKEN = "ABSTRACT-7X3Q"
 
 

@@ -8,7 +8,7 @@ section.
 """
 import json
 
-DIR = "/home/toxic/estate-eval-wt/projects/openrouter-probe"
+DIR = "/home/toxic/pens/Pens-eval-wt/projects/openrouter-probe"
 JP = DIR + "/ranking-eval-20260920-final.json"
 MP = DIR + "/RANKING-eval-20260920-final.md"
 

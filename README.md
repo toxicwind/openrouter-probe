@@ -1,13 +1,13 @@
 <div align="right">
 
-[![license](https://img.shields.io/badge/license-MIT%20%2B%20upstream-blue?style=for-the-badge)](https://github.com/toxicwind/estate-scripts-projects#license)
-[![estate-scripts-projects](https://img.shields.io/badge/estate-scripts--projects-part%20of-blueviolet?style=for-the-badge)](https://github.com/toxicwind/estate-scripts-projects)
+[![license](https://img.shields.io/badge/license-MIT%20%2B%20upstream-blue?style=for-the-badge)](https://github.com/toxicwind/Pens-scripts-projects#license)
+[![Pens-scripts-projects](https://img.shields.io/badge/Pens-scripts--projects-part%20of-blueviolet?style=for-the-badge)](https://github.com/toxicwind/Pens-scripts-projects)
 
 </div>
 
 # openrouter-probe — quality-first eval stack
 
-**Stop trusting provider labels. Measure which free models actually follow instructions.** A deterministic evaluation harness that ranks OpenRouter's free models by measured instruction-following quality — run through the estate-scripts **GuideLLM fork** (`toxicwind/guidellm`), not a parallel harness.
+**Stop trusting provider labels. Measure which free models actually follow instructions.** A deterministic evaluation harness that ranks OpenRouter's free models by measured instruction-following quality — run through the Pens-scripts **GuideLLM fork** (`toxicwind/guidellm`), not a parallel harness.
 
 **Ranking rule: quality first, provider-free status second, GuideLLM-measured performance third.**
 
@@ -47,11 +47,11 @@ flowchart LR
 /home/toxic/.venv-guidellm/bin/python3 eval_runner.py --models "a/b:free,c/d:free" --n 6
 ```
 
-The runner reads `OPENROUTER_API_KEY_FREE` from the environment (never logged). GuideLLM source: `/home/toxic/pens/estate/ranch/guidellm/fork` (remote `toxicwind/guidellm`).
+The runner reads `OPENROUTER_API_KEY_FREE` from the environment (never logged). GuideLLM source: `/home/toxic/pens/Pens/ranch/guidellm/fork` (remote `toxicwind/guidellm`).
 
 ## License & security
 
-- [MIT](https://github.com/toxicwind/estate-scripts-projects#license).
+- [MIT](https://github.com/toxicwind/Pens-scripts-projects#license).
 - API keys are read from the environment and never logged or written to reports.
 
 ## Latest ranking
@@ -74,7 +74,7 @@ Supersedes `RANKING-eval-20260920-final.md`.
 - Fork: [toxicwind/guidellm](https://github.com/toxicwind/guidellm) — pluggable scoring (`src/guidellm/benchmark/scoring/`), README documents the scoring feature.
 - Upstream: [vllm-project/guidellm](https://github.com/vllm-project/guidellm)
 - Eval plan: `GUIDELLM_EVAL_PLAN.md` (in this directory)
-- Fleet knowledgebase: [canonical](https://github.com/toxicwind/estate-scripts-projects/blob/main/docs/fleet-knowledgebase.md)
+- Fleet knowledgebase: [canonical](https://github.com/toxicwind/Pens-scripts-projects/blob/main/docs/fleet-knowledgebase.md)
 - Papers: Zheng et al. arXiv `2306.05685`; *LLM Judges Have Dark Current* arXiv `2606.15610`; *Judging LLM-as-a-Judge* arXiv `2609.02942`; *Evaluation Scores Are Perishable Knowledge Claims* arXiv `2607.26191`; *RouteBalance* arXiv `2606.17949`; *RouterWise* arXiv `2604.10907`
 
 ## Contribute

@@ -2,7 +2,7 @@
 """Rewrite the openrouter-free peer model list from the abstract-probe ranking."""
 import sys
 
-P = "/home/toxic/pens/estate/config/herd.yaml"
+P = "/home/toxic/pens/Pens/config/herd.yaml"
 src = open(P).read()
 
 OLD = """  openrouter-free:

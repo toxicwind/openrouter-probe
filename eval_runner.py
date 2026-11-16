@@ -26,7 +26,7 @@ import urllib.error
 import ranking_lib  # shared tier/ranking/report logic
 from ranking_lib import split_tiers, rank_models
 
-sys.path.insert(0, "/home/toxic/pens/estate/ranch/guidellm/fork/src")
+sys.path.insert(0, "/home/toxic/pens/Pens/ranch/guidellm/fork/src")
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
 
 SECRETS = "/home/toxic/.secrets"
@@ -64,8 +64,8 @@ def api(path, data=None, timeout=TIMEOUT):
         BASE + path, data=body, method="POST" if body else "GET",
         headers={"Authorization": "Bearer " + KEY,
                  "Content-Type": "application/json",
-                 "HTTP-Referer": "https://estate-scripts.local",
-                 "X-Title": "estate-scripts-eval"})
+                 "HTTP-Referer": "https://Pens-scripts.local",
+                 "X-Title": "Pens-scripts-eval"})
     t0 = time.time()
     try:
         with urllib.request.urlopen(req, timeout=timeout) as r:
@@ -98,8 +98,8 @@ def discover_free_models(timeout=60):
     """
     req = urllib.request.Request(
         "https://openrouter.ai/api/v1/models",
-        headers={"HTTP-Referer": "https://estate-scripts.local",
-                 "X-Title": "estate-scripts-eval"})
+        headers={"HTTP-Referer": "https://Pens-scripts.local",
+                 "X-Title": "Pens-scripts-eval"})
     t0 = time.time()
     try:
         with urllib.request.urlopen(req, timeout=timeout) as r:
