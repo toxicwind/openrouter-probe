@@ -1,0 +1,8 @@
+{"model": "nex-agi/nex-n2.5-mini:free", "http": 200, "lat_ms": 489.3, "content": "ABSTRACT-7X3Q"}
+{"model": "poolside/laguna-s-2.1:free", "http": 200, "lat_ms": 2161.7, "content": "ABSTRACT-7X3Q"}
+{"model": "cohere/north-mini-code:free", "http": 200, "lat_ms": 332.4, "content": ""}
+{"model": "inclusionai/ling-3.0-flash-sante:free", "http": 200, "lat_ms": 1282.7, "content": ""}
+{"model": "nex-agi/nex-n2.5-pro:free", "http": 200, "lat_ms": 799.0, "content": "ABSTRACT-7X3Q"}
+{"model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free", "http": -1, "lat_ms": 239.8, "content": "'choices'"}
+{"model": "nvidia/nemotron-3-super-120b-a12b:free", "http": 200, "lat_ms": 705.0, "content": "ABSTRACT-"}
+{"model": "nvidia/nemotron-3.5-lightning:free", "http": 200, "lat_ms": 810.5, "content": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   -"}

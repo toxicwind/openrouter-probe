@@ -1,0 +1,58 @@
+key: OPENROUTER_API_KEY_1 loaded (73 chars, NOT shown)
+fetching model list...
+446 models to probe (no :free filter)
+  25/446 (0s)
+  50/446 (1s)
+  75/446 (1s)
+  100/446 (2s)
+  125/446 (2s)
+  150/446 (3s)
+  175/446 (3s)
+  200/446 (3s)
+  225/446 (4s)
+  250/446 (4s)
+  275/446 (4s)
+  300/446 (5s)
+  325/446 (5s)
+  350/446 (5s)
+  375/446 (5s)
+  400/446 (5s)
+  425/446 (6s)
+
+=== WORKING MODELS (4/446) ===
+model                                                            http    lat_ms  preview
+nvidia/nemotron-3-super-120b-a12b:free                            200     489.1  The user says "say
+nex-agi/nex-n2.5-mini:free                                        200     593.4  OK
+nex-agi/nex-n2.5-pro:free                                         200    2307.9  OK
+nvidia/nemotron-3.5-lightning:free                                200   86584.7  Here's a thinking process
+
+=== NON-200 BREAKDOWN ===
+  http 402: 346 models
+  http 403: 2 models
+  http 404: 78 models
+  http 429: 6 models
+  http 200 but EMPTY content: 10 models
+    inclusionai/ling-3.0-flash-vl:free
+    inclusionai/ling-3.0-flash-fin:free
+    inclusionai/ling-3.0-flash-sante:free
+    dots-studio/dots-3-note-preview:free
+    liquid/lfm-2.5-2.6b:free
+    cohere/north-mini-code:free
+    nvidia/nemotron-3-ultra-550b-a55b:free
+    nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+    nvidia/nemotron-3.5-content-safety:free
+    openrouter/free
+
+=== KIMI/MOONSHOT (9 probed) ===
+moonshotai/kimi-k2                                             http=402 lat=     50ms {"error":{"message":"Insufficient credits. Add more using https://open
+moonshotai/kimi-k2-0905                                        http=402 lat=     53ms {"error":{"message":"Insufficient credits. Add more using https://open
+moonshotai/kimi-k2-thinking                                    http=402 lat=     53ms {"error":{"message":"Insufficient credits. Add more using https://open
+moonshotai/kimi-k2.5                                           http=402 lat=     53ms {"error":{"message":"Insufficient credits. Add more using https://open
+moonshotai/kimi-k2.6                                           http=402 lat=    206ms {"error":{"message":"Insufficient credits. Add more using https://open
+moonshotai/kimi-k2.7-code                                      http=402 lat=    141ms {"error":{"message":"Insufficient credits. Add more using https://open
+moonshotai/kimi-k3                                             http=402 lat=     61ms {"error":{"message":"Insufficient credits. Add more using https://open
+moonshotai/kimi-k3:batch                                       http=404 lat=     73ms {"error":{"message":"This model is only available through the Batch AP
+~moonshotai/kimi-latest                                        http=402 lat=     68ms {"error":{"message":"Insufficient credits. Add more using https://open
+
+results: /home/toxic/pens/estate-scripts/projects/openrouter-probe/results-20260920-021319.jsonl
+total wall: 88s

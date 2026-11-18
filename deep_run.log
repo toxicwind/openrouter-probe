@@ -1,0 +1,14 @@
+deep pass: 4 models x 5 reqs
+=== nvidia/nemotron-3-super-120b-a12b:free ===
+  iter 0: ttft=-1ms total=0s tps=2.5
+  iter 1: ttft=672ms total=1s tps=212.4
+  iter 2: ttft=1563ms total=2s tps=18653.6
+  iter 3: ttft=917ms total=1s tps=63.8
+  iter 4: ttft=5771ms total=6s tps=13812.5
+=== nex-agi/nex-n2.5-mini:free ===
+  iter 0: ttft=540ms total=1s tps=217.9
+  iter 1: ttft=788ms total=1s tps=214.8
+  iter 2: ttft=590ms total=1s tps=210.2
+  iter 3: ttft=1167ms total=1s tps=111.5
+  iter 4: ttft=2048ms total=2s tps=200.5
+=== nex-agi/nex-n2.5-pro:free ===

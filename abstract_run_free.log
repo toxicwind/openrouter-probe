@@ -1,0 +1,43 @@
+probing 446 models, prompt='Output exactly: ABSTRACT-7X3Q. No other text.'
+  50/446
+  100/446
+  150/446
+  200/446
+  250/446
+  300/446
+  350/446
+  400/446
+http: [(402, 346), (404, 78), (200, 15), (429, 5), (403, 2)]
+score: [(0, 437), (2, 8), (1, 1)]
+--- speculative ranking top 30 ---
+score=2 lat=    450ms nex-agi/nex-n2.5-mini:free                              'ABSTRACT-7X3Q'
+score=2 lat=    615ms nex-agi/nex-n2.5-pro:free                               'ABSTRACT-7X3Q'
+score=2 lat=    758ms inclusionai/ling-3.0-flash-sante:free                   'ABSTRACT-7X3Q'
+score=2 lat=   1157ms nvidia/nemotron-3-ultra-550b-a55b:free                  'ABSTRACT-7X3Q'
+score=2 lat=   1829ms nvidia/nemotron-3-super-120b-a12b:free                  'ABSTRACT-7X3Q'
+score=2 lat=   2349ms poolside/laguna-s-2.1:free                              'ABSTRACT-7X3Q'
+score=2 lat=   2422ms cohere/north-mini-code:free                             'ABSTRACT-7X3Q'
+score=2 lat=  35215ms openrouter/free                                         'ABSTRACT-7X3Q'
+score=1 lat=  25989ms nvidia/nemotron-3.5-lightning:free                      "Here's a thinking process:\n\n1. User want"
+score=0 lat=     41ms google/lyria-3-clip-preview                             ''
+score=0 lat=     42ms openai/o1                                               ''
+score=0 lat=     43ms openai/o3-pro                                           ''
+score=0 lat=     43ms openai/o4-mini-high                                     ''
+score=0 lat=     44ms openai/gpt-5.2-pro:batch                                ''
+score=0 lat=     47ms openai/gpt-4o-mini-2024-07-18                           ''
+score=0 lat=     47ms anthropic/claude-sonnet-4                               ''
+score=0 lat=     48ms anthropic/claude-fable-5                                ''
+score=0 lat=     48ms kwaipilot/kat-coder-pro-v2                              ''
+score=0 lat=     48ms google/gemini-3.6-flash                                 ''
+score=0 lat=     48ms anthropic/claude-opus-4.6:batch                         ''
+score=0 lat=     49ms anthropic/claude-opus-4.7:batch                         ''
+score=0 lat=     49ms arcee-ai/trinity-large-thinking                         ''
+score=0 lat=     49ms openai/gpt-5.5-pro                                      ''
+score=0 lat=     49ms openai/gpt-4o-mini                                      ''
+score=0 lat=     49ms openai/o3-mini:batch                                    ''
+score=0 lat=     49ms openai/gpt-5.4-image-2                                  ''
+score=0 lat=     50ms openai/o3:batch                                         ''
+score=0 lat=     50ms x-ai/grok-4.20-multi-agent                              ''
+score=0 lat=     50ms openai/gpt-5.4-nano:batch                               ''
+score=0 lat=     50ms openai/gpt-5.4-mini                                     ''
+wrote abstract-20260920-142947.jsonl ranking-20260920-142947.json
